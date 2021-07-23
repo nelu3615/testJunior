@@ -1,0 +1,16 @@
+<div class="col-md-8" >
+    <li class="list-group-item" *ngFor="let g of games.results" >
+      Image : <img width="200" src="{{ g.background_image }}" alt="">  
+      <br>
+      Nom : <a href="">{{ g.name }}</a>
+      <br>
+      Date de sortie: {{ g.released }}  
+      <br>
+      Catégorie: {{ g.genres }}  
+      <br>
+      Classement: {{ g.metacritic }}  
+      <br>
+    </li>
+
+
+</div>

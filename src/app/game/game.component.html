@@ -1,0 +1,10 @@
+<div class="alert alert-success">
+  <p>Id: {{id}}</p>
+  <h5>Nom: {{name}}</h5>
+  <img width="200" src="{{ image }}" alt="">  
+  Catégorie: {{ category }}  
+  <br>
+  Classement: {{ metacritic }}  
+  <button class="btn btn-info" (click)="openGame.emit(id)">Modifier</button>
+
+</div>
